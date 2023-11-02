@@ -3,6 +3,8 @@ h1, h3, h4 {
     font-family: fantasy;
     background-color: blue;
     color: white;
+    width: 400px;
+    margin: 15px auto;
 }
 
 h3 {
@@ -12,10 +14,13 @@ h3 {
 .picture {
     height: auto;
     width: 875px;
+    display: block;
+    margin: auto
 }
 
 p {
     font-size: x-large;
+    text-align: center;
 }
 
 ul {
@@ -29,9 +34,10 @@ ol {
 a:link {
     font-size: larger;
     background-color: #f44336;
-    color: white;
-    padding: 14px 25px;
+    padding: 10px 5px;
+    margin: 8px 8px;
     text-align: center;
-    display: inline-block;
+    display: block;
+    width: 300px;    
+    margin: 10px auto;
 }
-
